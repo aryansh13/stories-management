@@ -1,4 +1,4 @@
-# Project Name
+# Stories Management
 
 ## <a name="introduction"></a> Introduction :
 Ini merupakan story management yang dimana bisa melakukan create, update, read, delete
@@ -33,4 +33,4 @@ You may list what libraries you used in this project, example :
 * `services`
 
 ## <a name="apk-link"></a> Website URL :
-[text](https://youtu.be/PUzqkVem05s)
+[Link Youtube Stories Management](https://youtu.be/PUzqkVem05s)
