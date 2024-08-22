@@ -1,0 +1,69 @@
+###STORY LIST
+GET http://localhost:5000/stories
+
+###Endpoint Show Story /id
+GET http://localhost:5000/stories/1
+
+###Endpoint Create Story
+POST http://localhost:5000/stories
+Content-Type: application/json
+
+{
+    "title": "Bismillah",
+    "author": "Gus hanif",
+    "synopsis": "asdkajsdhajsdhajksdhaadasd",
+    "category_id": 1,
+    "story_cover": "asdasdasd.jpg", 
+    "tags_id": 1,
+    "status_id": 1
+}
+
+###Endpoint Update Story
+PUT http://localhost:5000/stories/1
+Content-Type: application/json
+
+{
+    "title": "Sample anjay Title",
+    "author": "Jane Doadsae",
+    "synopsis": "asdkajsdhajsdhajksdhaadasd",
+    "category_id": 2,
+    "story_cover": "asdasdasd.jpg", 
+    "tags_id": 2,
+    "status_id": 2
+}
+
+###Endpoint Delete Story
+DELETE http://localhost:5000/stories/2
+
+###CHAPTER LIST
+GET http://localhost:5000/chapters/2
+
+###Endpoint Create Chapter
+POST http://localhost:5000/chapters
+Content-Type: application/json
+
+{
+    "chapter_title": "Introduction",
+    "story_chapter": "This is the introduction to the story."
+}
+
+###Endpoint Update Chapter
+PUT http://localhost:5000/chapters/2
+Content-Type: application/json
+
+{
+    "chapter_title": "Introduction Title",
+    "story_chapter": "This is the introduction to the story. iya ituu"
+}
+
+###Endpoint Delete Chapter
+DELETE http://localhost:5000/chapters/2
+
+###Category
+GET http://localhost:5000/category
+
+###Category
+GET http://localhost:5000/status
+
+###
+GET http://localhost:5000/tags
